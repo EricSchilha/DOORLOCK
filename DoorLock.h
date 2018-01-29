@@ -4,12 +4,14 @@
 
 // PORT I/O device definitions
 
-#define BEEPER      LATA0			// Phototransistor light sensor input
-#define S1         	RA1			// Temperature sensor (analogue) input
-#define LED1      	LATA2			// IR demodulator input
-#define MIC			RA3			// Switch S1 input
-#define N2      	RA4			// Neopixel2 (J2) output
-#define LOCK		LATA5			// Lock output
+#define BEEPER      LATA0		// Buzzer output
+#define S1         	RA1			// Switch S1 input
+#define LED1      	LATA2       // LED output
+//#define MIC		RA3			// Microphone input (currently digital)
+//#define IR      	RA4			// IR demodulator input
+#define LOCK		LATA5		// Lock output
+
+# define MIC		0b00001100 //(Channel 3 on RA4)
 
 // Clock frequency for delay macros and simulation
 
