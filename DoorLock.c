@@ -33,21 +33,3 @@ void init(void) {
 
     INTCON = 0b11100000;//0; // (Keep interrupts disabled for now) //Enabling interrupts for use with timer, (timer interrupt (PIE1), Global Interrupt and peripheral interrupt)
 }
-
-
-
-/*
-https://learn.adafruit.com/secret-knock-activated-drawer-lock/code
-
-
-there are some timer modules if you look in the datasheet for the chip
-i think it starts on page 143
-but idk how to do any of it so ill be no help
-that's all i can offer
-
-
-http://www.microcontrollerboard.com/pic-timer0-tutorial.html
-http://ww1.microchip.com/downloads/en/DeviceDoc/51682A.pdf
-https://circuitdigest.com/microcontroller-projects/pic-microcontroller-timer-tutorial
-just try googling "creating a timer in pic microcontroller".
- */
